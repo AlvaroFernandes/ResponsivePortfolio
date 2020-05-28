@@ -1,7 +1,52 @@
-body{
-
+body {
+    background-color: lightgray;
 }
 
-footer{
+.navbar-brand {
+    background-color: teal;
+    padding: 2px 25px;
+    color: white;
+}
+
+.conteiner {
+    background-color: white;
+    width: 80%;
+    margin: 25px auto;
+}
+
+.conteiner h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: teal;
+    border-bottom: teal 2px solid;
+    padding-top: 25px;
+}
+
+img {
+    float: left;
+    width: 250px;
+    margin-right: 20px;
+}
+
+.conteiner p {
+    text-align: justify;
+}
+
+footer {
+    border-top: 5px teal solid;
     background-color: darkgrey;
+}
+
+@media screen and (max-width: 768px) {
+    img {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    img {
+        float: none;
+        width: 420px;
+        margin: 0 auto;
+        padding-bottom: 10px;
+    }
 }
