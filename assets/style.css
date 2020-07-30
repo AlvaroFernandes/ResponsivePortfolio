@@ -59,6 +59,13 @@ img {
 .card-title {
     width: 100%;
     background-color: black;
+    bottom: 10px;
+    text-align: center;
+}
+
+.card-subtitle {
+    width: 100%;
+    background-color: teal;
     position: absolute;
     bottom: 10px;
     text-align: center;
